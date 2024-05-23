@@ -1,0 +1,38 @@
+name: phone_store
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter:
+    sdk: flutter
+  animated_text_kit: ^4.2.2
+  flutter_native_splash: ^2.2.19
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.0
+  shared_preferences: ^2.1.1
+  pinput: ^2.2.16
+  google_nav_bar: ^5.0.6
+  font_awesome_flutter: ^10.4.0
+  intl: ^0.18.1
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/bg.jpg
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_lints: 2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
